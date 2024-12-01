@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Conexão com o Google Fonts para usar a fonte Audiowide -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    
+    <!-- Definindo o conjunto de caracteres e a responsividade para dispositivos móveis -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página -->
+    <title>Festival de Trap</title>
+    
+    <!-- Link para o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+
+    <!-- Seção principal com o logo e botão de compra -->
+    <div class="hero">
+        <div class="logo">
+            <!-- Comentado: Logo da página -->
+            <!--<img src="./src/img/logo.png" alt="Logo Festival">-->
+        </div>
+        
+        <!-- Título principal do festival -->
+        <div id="logo"> <h1>Recife Trap Festival</h1> </div>
+        
+        <!-- Descrição do festival -->
+        <p>Prepare-se para uma noite de música e diversão!</p>
+        
+        <!-- Botão para comprar ingressos -->
+        <button>Comprar agora</button>
+
+        <!-- Vídeo e áudio em segundo plano -->
+        <div class="video-background">
+            <video autoplay loop muted playsinline>
+                <source src="./src/video/evento.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+            <audio autoplay loop>
+                <source src="./src/sounds/music.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+        </div>
+    </div>
+
+    <!-- Seção sobre o festival -->
+    <section id="about">
+        <h2>Sobre o Festival</h2>
+        <p>O Recife Trap Festival 2024 acontecerá nos dias 26 e 27 de abril, no Centro de Convenções do Recife. O evento promete ser uma das maiores celebrações da música trap no Brasil, trazendo grandes nomes do gênero como Filipe Ret, Poze do Rodo, Orochi, Kayblack, Froid, Matuê, Djonga e muitos outros.</p>
+    </section>
+
+    <!-- Seção de ingressos -->
+    <section id="tickets">
+        <h2>Ingressos</h2>
+        <p>Compre seus ingressos agora!</p>
+        <div class="ticket-container">
+            <!-- Detalhamento dos tipos de ingressos -->
+            <div class="ticket">
+                <h3>Frontstage</h3>
+                <p>R$ 150,00</p>
+            </div>
+            <div class="ticket">
+                <h3>Open Bar</h3>
+                <p>R$ 350,00</p>
+            </div>
+            <div class="ticket">
+                <h3>Lounge Sounds</h3>
+                <p>R$ 550,00</p>
+            </div>
+            <div class="ticket">
+                <h3>Lounge Sounds VIP</h3>
+                <p>R$ 850,00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de atrações do evento -->
+    <section id="lineup">
+        <h2>Atração</h2>
+        <p>Os melhores artistas de Trap do Brasil</p>
+        <div class="artist-container">
+            <!-- Detalhamento das atrações -->
+            <div class="artist">
+                <img src="./src/img/orochi.jpg" alt="Foto do Orochi">
+                <p>Orochi</p>
+            </div>
+            <div class="artist">
+                <img src="./src/img/xama.jpg" alt="Foto do Xamã">
+                <p>Xamã</p>
+            </div>
+            <div class="artist">
+                <img src="./src/img/borges.jpg" alt="Foto do Borges e Bin">
+                <p>Borges e Bin</p>
+            </div>
+            <div class="artist">
+                <img src="./src/img/djonga.jpg" alt="Foto do Djonga">
+                <p>Djonga</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de contato com formulário -->
+    <section id="contact">
+        <h2>Entre em Contato Conosco</h2>
+        <p>Se você tem dúvidas ou quer saber mais, entre em contato! Estamos prontos para ajudar.</p>
+        <form>
+            <!-- Campos para preencher informações de contato -->
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Telefone" required>
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <div class="footer-container">
+            <!-- Informações sobre o festival -->
+            <div class="footer-about">
+                <h3>Sobre Nós</h3>
+                <p>O Recife Trap Festival traz a melhor experiência do Trap desde 2022.</p>
+            </div>
+            
+            <!-- Links úteis do site -->
+            <div class="footer-links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#lineup">Atrações</a></li>
+                    <li><a href="#tickets">Ingressos</a></li>
+                </ul>
+            </div>
+            
+            <!-- Links para redes sociais -->
+            <div class="footer-social">
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com%2Frecifetrapfestival%2F%3Flocale%3Dpt_BR&usg=AOvVaw23yhYD0lZrSASlVs_D8U8V&opi=89978449">Facebook</a>
+                    <a href="https://www.instagram.com/recifetrapfestivaloficial/">Instagram</a>
+                    <a href="https://x.com/RecifeTrapF">Twitter</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Rodapé inferior com direitos autorais -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Recife Trap Festival. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
